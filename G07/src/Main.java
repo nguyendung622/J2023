@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		float a = 5, b = 10, c= 2;
+		N203.PTB2(a, b, c);
+		int n = 5;
+		long rs = N203.GT(n);
+		System.out.printf("\n%d!=%d", n,rs);
+	}
+	
+}

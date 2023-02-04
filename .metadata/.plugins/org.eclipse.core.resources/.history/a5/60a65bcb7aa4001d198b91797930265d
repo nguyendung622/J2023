@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+		System.out.println("Welcome to Hue city");
+		int n = 11;
+		
+		if (N203.LaChan(n))
+			System.out.print(n + " la so chan");
+		else
+			System.out.printf("%d la so le", n);
+	}
+	
+	
+	
+	
+	
+
+}

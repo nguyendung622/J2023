@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		float a = 5, b = 10, c = 2;
+		int n = 5;
+		
+		BaiTapCoBan.PTB2(a, b, c);
+		
+		long rs = BaiTapCoBan.GT(n);
+		System.out.printf("\n%d!=%d",n, rs);
+		
+		BaiTapCoBan.Fibo(n);
+	}
+	static boolean LaChan(int n) {
+		if (n % 2 == 0)
+			return true;
+		return false;
+	}
+}

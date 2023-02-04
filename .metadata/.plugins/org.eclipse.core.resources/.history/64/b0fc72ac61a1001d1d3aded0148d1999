@@ -1,0 +1,31 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hellooo world!");
+		System.out.println("Welcome to my class");
+		
+		Main.PTB2(3,10,5);
+		Main m = new Main();
+		m.GT(5);
+	}
+	
+	static void PTB2(float a, float b, float c) {
+		double delta = Math.pow(b, 2) - 4 * a *c;
+		if (delta < 0) {
+			System.out.print("Vo nghiem");
+		}
+		else if (delta == 0) {
+			double x = -b/2*a;
+		}
+		else {
+			double x1 = (-b - Math.sqrt(delta))/2*a;
+			double x2 = (-b + Math.sqrt(delta))/2*a;
+			System.out.print("Phuong trinh co 2 nghiem: x1 = " + x1 +", x2 = " + x2);
+		}
+	}
+	
+	long GT(int n) {
+		return 0;
+	}
+}

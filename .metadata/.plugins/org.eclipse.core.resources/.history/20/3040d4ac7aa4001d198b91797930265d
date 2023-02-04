@@ -1,0 +1,17 @@
+
+public class N203 {
+	public static boolean LaChan(int n) {
+		if (n % 2 == 0)
+			return true;
+		return false;
+	}
+	public static void PTB2(float a, float b, float c) {
+		
+	}
+	public static long GT(int n) {
+		
+	}
+	public static long Fibo(int n) {
+		
+	}
+}

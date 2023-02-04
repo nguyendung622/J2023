@@ -1,0 +1,36 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		float a = 5, b = 10, c = 2;
+		int n = 5;
+		Main.PTB2(a, b, c);
+		
+		Main m = new Main();
+		m.GT(n);
+		m.Fibo(n);
+	}
+	
+	static void PTB2(float a, float b, float c) {
+		double delta = Math.pow(b, 2) - 4 * a * c;
+		if (delta < 0)
+			System.out.println("Vo nghiem");
+		else if (delta == 0) {
+			double x = -b/2*a;
+			System.out.println("Co nghiem kep: "+ x);
+		}
+		else {
+			double x1 = (-b-Math.sqrt(delta))/2*a;
+			double x2 = (-b+Math.sqrt(delta))/2*a;
+			String s = String.format("Nghiem cua PT la: x1= %f, x2=%f", x1,x2);
+			System.out.println(s);
+		}
+	}
+	
+	long GT(int n) {
+		return 0;
+	}
+	long Fibo(int n) {
+		return 0;
+	}
+}
